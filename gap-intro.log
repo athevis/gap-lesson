@@ -1,0 +1,12 @@
+gap> S:=SymmetricGroup(9);
+Sym( [ 1 .. 9 ] )
+gap> A:=AlternatingGroup(9);
+Alt( [ 1 .. 9 ] )
+gap> DihedralGroup(18);
+<pc group of size 18 with 3 generators>
+gap> AvgOrdOfGroup(S);
+3291487/362880
+gap> AvgOrdOfGroup(A);
+1516831/181440
+gap> AvgOrdOfGroup(D);
+57/14
